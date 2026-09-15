@@ -17,8 +17,9 @@ In this practical, we will study the structural dynamics of the TCF4 bHLH region
 * Tanor Andre: [6OD3](https://www.rcsb.org/structure/6OD3) (Biological Assembly 1)
 * Luna Basnet: [6OD3](https://www.rcsb.org/structure/6OD3) (Biological Assembly 2)
 * Jayrus Hurdle: [6OD4](https://www.rcsb.org/structure/6OD4) (Biological Assembly 1)
-* Grace Miller: [6OD5](https://www.rcsb.org/structure/6OD5) (Biological Assembly 1)
-* Bohao Wang: [6OD5](https://www.rcsb.org/structure/6OD5) (Biological Assembly 2)
+* Grace Miller: [6OD3](https://www.rcsb.org/structure/6OD3) R576W mutant (Biological Assembly 1)
+* Gabby Tamayo: [6OD3](https://www.rcsb.org/structure/6OD3) R576W mutant (Biological Assembly 2)
+* Bohao Wang: [6OD4](https://www.rcsb.org/structure/6OD4) R576W mutant (Biological Assembly 1)
 
 Using Molecular Dynamics (MD) simulations, we can analyze the structural stability, hydrogen-bonding networks, and dynamic behavior of wild-type and mutant TCF4-DNA complexes at atomistic resolution.
 
@@ -34,6 +35,17 @@ Using Molecular Dynamics (MD) simulations, we can analyze the structural stabili
 ---
 
 ## Part 1 Instructions
+
+### Step 0: Create an account on Github and clone this repository
+1. Go to the [Github](https://github.com/) website and create an account.
+2. Use an SSH client / terminal to log into the DEAC cluster using your username (same as your email before @wfu.edu):
+    ```bash
+    ssh -Y [username]@artemis.deac.wfu.edu
+3. Go to your directory and clone this repository:
+    ```bash
+    cd /deac/phy/classes/phy320-fa-2026/[username]
+    git clone https://github.com/samcho/Project-1-PHY320620-Fall2026.git
+    cd Project-1-PHY320620-Fall2026/
 
 ### Step 1: Download the TCF4 PDB Structure
 1. Go to the [RCSB Protein Data Bank](https://www.rcsb.org/) for your assigned PDB structure.
