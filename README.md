@@ -49,7 +49,7 @@ Using Molecular Dynamics (MD) simulations, we can analyze the structural stabili
    * Select the crystal waters (not default)
 5. **Solvation & Ions:**
    * Select a **Rectangular** water box. (default)
-   * Set the edge distance (minimum $10\text{ \AA}$ padding around the protein-DNA complex). (default)
+   * Set the edge distance (minimum 10 Å padding around the protein-DNA complex). (default)
    * Add ions $\text{KCl}$) to neutralize the system and set physiological concentration (e.g., $0.15\text{ M}$). (default)
 6. **Input Generator Options:**
    * Select **CHARMM36m** as the force field (optimized for nucleic acid-protein complexes). (default)
