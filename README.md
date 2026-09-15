@@ -29,7 +29,7 @@ Using Molecular Dynamics (MD) simulations, we can analyze the structural stabili
 * An active account on the DEAC cluster.
 * Access to a web browser (for CHARMM-GUI and the RCSB PDB).
 * An SSH client / terminal to access the cluster.
-* Access to class [DEAC OnDemand Dashboard](phy320.deac.wfu.edu/pun/sys/dashboard).
+* Access to class [DEAC OnDemand Dashboard](https://phy320.deac.wfu.edu/pun/sys/dashboard).
 * A file transfer tool (e.g., `scp`, [FileZilla](https://filezilla-project.org/)) to upload/download files to the cluster.
 
 ---
