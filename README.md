@@ -76,10 +76,10 @@ Using Molecular Dynamics (MD) simulations, we can analyze the structural stabili
 2. Unpack files and create directories for 3 independent trajectories:
    ```bash
    ssh -Y username@artemis.deac.wfu.edu
-   cd /deac/phy/classes/phy320-fa-2026/username
-   tar -xvfz charmm-gui.tgz; mv charmm-gui-* 1
-   tar -xvfz charmm-gui.tgz; mv charmm-gui-* 2
-   tar -xvfz charmm-gui.tgz; mv charmm-gui-* 3
+   cd /deac/phy/classes/phy320-fa-2026/username/Project-1-PHY320620-Fall2026/
+   tar -xvzf charmm-gui.tgz; mv charmm-gui-* 1
+   tar -xvzf charmm-gui.tgz; mv charmm-gui-* 2
+   tar -xvzf charmm-gui.tgz; mv charmm-gui-* 3
 
 ### Step 4: Edit the dcdfreq in Step5_production.inp
 1. Edit the `step5_production.inp` file so that the trajectory printing frequency is 10x less:
