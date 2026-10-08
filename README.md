@@ -104,3 +104,22 @@ Using Molecular Dynamics (MD) simulations, we can analyze the structural stabili
 3. Wait until md-equil.slurm is finished by using the `squeue` command and verify by opening and checking the `step4_equilibration.out` file to see that the simulation continued until the end (look for "End of program" message at the end of the file). 
 4. Submit the md-dyna.slurm script to the DEAC cluster. This should take about 5 days. Every 4 hours or so, your directory will be filled with about 1 ns of MD simulation. Check to make sure that each trajectory completed successfully. 
 5. After the first md-dyna.slurm script is finished, use `nano` to edit lines 27 and 28 to reflect the next set of MD simulations. Re-submit the md-dyna.slurm script to the DEAC cluster, wait until it ends, and check to make sure that each trajectory completed successfully. Keep repeating this step until 250 ns of MD simulations has completed.
+
+## Part 2 Instructions
+
+### Step 1: Update the GitHub repository in your directory
+Go to your directory and update this repository:
+    ```bash
+    cd /deac/phy/classes/phy320-fa-2026/[username]/Project-1-PHY320620-Fall2026/
+    git pull
+
+### Step 2: Perform analyses of your MD simulation with the prepared Jupyter Notebook
+1. Copy the Jupyter Notebook to your directory:
+    ```bash
+   cd 1/namd/
+   cp ../../../Analysis.ipynb .
+   
+2. Log into the DEAC OnDemand and run every command on the Jupyter Notebook.
+3. Add in the missing Figure captions and the Summary.
+4. Repeat steps 1-3 for directories 2 and 3 too.
+
