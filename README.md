@@ -109,7 +109,8 @@ Using Molecular Dynamics (MD) simulations, we can analyze the structural stabili
 
 ### Step 1: Update the GitHub repository in your directory
 Go to your directory and update this repository:
-    ```bash
+
+    bash
     cd /deac/phy/classes/phy320-fa-2026/[username]/Project-1-PHY320620-Fall2026/
     git pull
 
@@ -123,3 +124,26 @@ Go to your directory and update this repository:
 3. Add in the missing Figure captions and the Summary.
 4. Repeat steps 1-3 for directories 2 and 3 too.
 
+## Part 3 Instructions
+
+### Step 1: Explore an MD Simulation analysis method with an LLM
+1. Use an LLM (e.g., ChatGPT or Gemini) to explore and understand an advanced MD simulation analysis method not covered in our notebook.
+2. Ask the LLM to explain the physical significance of the method and how it can provide structural insights into protein-DNA interactions (such as the TCF4 bHLH domain binding to E-box DNA).
+
+### Step 2: Describe the method in your Jupyter notebook
+1. Create a new Jupyter Notebook named `Advanced_Analysis.ipynb`.
+2. Insert a markdown text box summarizing the chosen analysis method, its underlying theory, and the specific structural dynamics or stability features it reveals about your assigned system.
+
+### Step 3: Write and run analysis program using the LLM
+1. Prompt the LLM to write a Python script using standard trajectory analysis libraries (such as `MDAnalysis` or `MDTraj`) trailored to your NAMD output files.
+2. Paste the LLM-generated code into the code cells of your Jupyter notebook.
+3. Run the code across your simulation directories (1, 2, and 3) to process the trajectories and generate publication-quality plots.
+
+ ### Step 4: Interpret the results and update GitHub
+1. Add a markdown text box below your generated plots to briefly describe and interpret the results.
+2. Save your notebook and push your completed work back to our GitHub repository:
+
+    ```bash
+   git add Advanced_Analysis.ipynb
+   git commit -m "Add Part 3 advanced MD simulation analysis"
+   git push origin main
